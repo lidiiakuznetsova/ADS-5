@@ -5,10 +5,10 @@
 
 template<typename T>
 class TPQueue {
- struct ITEM {
+struct ITEM {
     T data;
     ITEM * next;
-  };
+    };
  public:
   TPQueue();
   ~TPQueue();
